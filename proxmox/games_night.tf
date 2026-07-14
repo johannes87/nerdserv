@@ -1,4 +1,4 @@
-module "<your_vm_name>_vm" {
+module "games_night_vm" {
   source = "../modules/vm"
   node   = var.node
   pool   = var.pool
